@@ -1,0 +1,48 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #02010a;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+header {
+    background: #5b7989;
+    border-radius: 10px 10px 0 0;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+    filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+nav ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+ul li a {
+    color: white;
+}
+
+.nav-active {
+    text-decoration: none;
+}
+
+.contenido {
+    max-width: 900px;
+    margin: 0 auto;
+}
