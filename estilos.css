@@ -7,10 +7,10 @@
 
 body {
     background: #02010a;
-    color: white;
     font-family: 'Dancing Script', cursive;
 }
 header {
+    color: white;
     background: #5b7989;
     border-radius: 10px 10px 0 0;
     height: 100px;
@@ -29,12 +29,12 @@ nav ul {
     display: flex;
 }
 
-ul li {
+nav ul li {
     list-style: none;
     padding: 5px;
 }
 
-ul li a {
+nav ul li a {
     color: white;
 }
 
@@ -43,6 +43,34 @@ ul li a {
 }
 
 .contenido {
+    width: 95%;
     max-width: 900px;
     margin: 0 auto;
+}
+
+
+footer {
+    background: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+    color: #02010a;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3 {
+    font-size: 1.5em;
+}
+
+footer ul {
+    max-width: 20%;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer a {
+    color: #02010a;
+    text-decoration: none;
 }
