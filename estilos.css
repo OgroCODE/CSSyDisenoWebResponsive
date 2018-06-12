@@ -123,6 +123,7 @@ nav ul li a {
 .galeria {
     background: #d5c75f;
     padding: 20px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -131,7 +132,7 @@ nav ul li a {
 }
 
 .galeria img {
-    height: auto;
+    height: 100%;
     width: 28%;
     margin: 20px 0;
 }
