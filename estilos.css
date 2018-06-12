@@ -85,6 +85,30 @@ nav ul li a {
     font-weight: bold;
 }
 
+.rotate {
+    transition-property: transform, box-shadow, border;
+    transition-duration: 1s, 1s, 1s;
+}
+
+.rotate:hover {
+    transform: rotate(10deg);
+    box-shadow: 2px 2px 2px #82c3a6;
+    border: 2px solid;
+}
+
+.translate {
+    transition-property: transform, box-shadow, border;
+    transition-duration: 1s, 1s, 1s;
+}
+
+.translate:hover {
+    transform: translate(20px, -5px);
+    box-shadow: 2px 2px 2px #82c3a6;
+    border: 2px solid;
+
+}
+
+
 /* TERMINA CONTENIDO PAGINA WEB */
 
 
