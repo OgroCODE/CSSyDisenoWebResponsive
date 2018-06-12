@@ -9,6 +9,7 @@ body {
     background: #02010a;
     font-family: 'Dancing Script', cursive;
 }
+
 header {
     color: white;
     background: #5b7989;
@@ -38,15 +39,53 @@ nav ul li a {
     color: white;
 }
 
+
+/* INICIA CONTENIDO DE LA PAGINA WEB */
+.contenido {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.imgs_sec img,
+.img_central img {
+    box-shadow: 2px 2px 2px #02010a;
+    width: 100%;
+    height: auto;
+}
+
 .nav-active {
     text-decoration: none;
 }
 
-.contenido {
-    width: 95%;
-    max-width: 900px;
-    margin: 0 auto;
+.img_central {
+    width: 100%;
+    background: #82c3a6;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.img_central img {
+    width: 90%;
+}
+
+.imgs_sec {
+    background: #d5c75f;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.imgs_sec a {
+    display: block;
+    width: 40%;
+    text-align: center;
+    color: #02010a;
+    font-weight: bold;
+}
+
+/* TERMINA CONTENIDO PAGINA WEB */
 
 
 footer {
@@ -78,7 +117,7 @@ footer a {
 
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 899px){
 
     header{
         padding: 5px;
@@ -105,4 +144,11 @@ footer a {
         padding: 5px;
     }
     
+    .imgs_sec{
+        flex-direction: column;
+    }
+    .imgs_sec a {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
